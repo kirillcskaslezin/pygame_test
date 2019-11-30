@@ -20,5 +20,5 @@ while running:
     if grow:
         r += speed * timer.tick() / 1000
     screen.fill(pygame.Color('black'))
-    pygame.draw.circle(screen, pygame.Color('yellow'), (x, y), int(r))
+    pygame.draw.circle(screen, pygame.Color('red'), (x, y), int(r))
     pygame.display.flip()
